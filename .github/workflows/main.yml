@@ -55,7 +55,7 @@ jobs:
       
     #Install React App with Yarn 
       - name: Build React App
-        run:  npm run build
+        run:  sudo yarn build
       
    #Install Surge
       - name: Install Surge
