@@ -43,7 +43,7 @@ jobs:
         
      # Install Yarn
       - name: Install Borales
-        uses: borales/action-yarn@2.0.0
+        uses: borales/actions-yarn@v2.3.0
         with: 
          cmd: install 
       
